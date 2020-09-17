@@ -20,7 +20,7 @@
     "tsc": "tsc",
     "dev:tsc": "ts-node-dev --respawn --transpile-only ./src",
     "dev": "nodemon",
-    "prod": "tsc && node ./build"
+    "start": "tsc && node ./build"
   },
   "keywords": [],
   "author": "",
